@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinatura Neurokids</title>
+    <style>
+*{
+    margin: 0;
+    font-size: 1.9vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-container > img {
+    height: 25vh;
+}
+
+.main-container > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container > div > div:not(.column) {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.link {
+    color: rgb(56, 132, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh 0 0;
+}
+
+.column > p {
+    margin: 0;
+}
+
+.buttons > a > img {
+    height: 4vh;
+    margin: 0.3vw;
+}
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <img src="neurokids.webp" alt="neurokids">
+        <div>
+            <div>
+                <p class="negrito">Nome do funcionário</p>
+                <p>/ Cargo do funcionário</p>
+            </div>
+            <div>
+                <p class="link">email do funcionario</p>
+                <p>/ (41)99999-9999</p>
+            </div>
+            <div class="column">
+                <p class="negrito">Clínica NeuroKids</p>
+                <p class="link">contato@clinicaneurokids.com.br</p>
+                <p>Colombo: (41)3128-2828</p>
+                <p>Curitiba: (41)3077-6469</p>
+                <p class="link">www.neurokidsclinica.com.br</p>
+            </div>
+            <div class="buttons">
+                <a href="https://api.whatsapp.com/send?l=pt&phone=5504131282828">
+                    <img src="whatsapp.png" alt="whatsapp">
+                </a>
+                <a href="http://www.instagram.com/somos.neurokids">
+                    <img src="instagram.png" alt="instagram">
+                </a>
+                <a href="http://www.facebook.com/ClinicaNeuroKids">
+                    <img src="facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.tiktok.com/@somos.neurokids">
+                    <img src="tiktok.png" alt="tiktok">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html

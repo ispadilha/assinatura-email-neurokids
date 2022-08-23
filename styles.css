@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    font-size: 1.9vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-container > img {
+    height: 25vh;
+}
+
+.main-container > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container > div > div:not(.column) {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.link {
+    color: rgb(56, 132, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh 0 0;
+}
+
+.column > p {
+    margin: 0;
+}
+
+.buttons > a > img {
+    height: 4vh;
+    margin: 0.3vw;
+}
