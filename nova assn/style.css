@@ -1,0 +1,94 @@
+body {
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+}
+
+.coluna1 {
+    margin: 0 70px 0 0;
+}
+
+.coluna1-linha1 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 110%;
+    margin: 8px 0 0 0;
+}
+
+.coluna1-linha1 p {
+    color:white;
+    margin: 0 0 0 10px;
+}
+
+.coluna1-linha2 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 90%;
+    margin: 10px 0 0 0;
+}
+
+.coluna1-linha2 p {
+    color:white;
+    margin: 0 0 0 10px;
+}
+
+.coluna1-linha3 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 85%;
+    margin: 25px 0 4px 2px;
+}
+
+.coluna1-linha3 p {
+    color:#884e9a;
+    margin: 0 0 0 11px;
+}
+
+.coluna1-linha4 {
+    align-items: center;
+    color:#884e9a;
+    display: flex;
+    flex-direction: row;
+    font-size: 85%;
+    margin: 4px 0 0 0;
+}
+
+.coluna1-linha4 p {
+    margin: 0 0 0 10px;
+}
+
+.coluna2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 90%;
+    align-items: center;
+}
+
+.coluna2-linha3 {
+    margin: 15px 0 0 0;
+}
+
+.coluna2 p {
+    color: #e42f88;
+    margin: 0;
+}
+
+@font-face {
+    font-family: arciform;
+    src: url("ARCIFORM.OTF") format("opentype");
+}
+
+html {
+    width: 630px;
+    height: 170px;
+}
+
+.main-container {
+    align-items: center;
+    display: flex;
+    flex: row;
+    font-family: arciform;
+    margin: 0 0 0 220px;
+}
