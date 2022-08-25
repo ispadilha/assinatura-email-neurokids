@@ -1,5 +1,7 @@
 body {
-    background-image: url("fundo.jpg");
+    display: flex;
+    flex-direction: row;
+    background-image: url("Fundo-8.png");
     background-repeat: no-repeat;
 }
 
@@ -7,12 +9,13 @@ body {
     margin: 0 70px 0 0;
 }
 
-.coluna1-linha1 {
+.coluna1-linha1 a {
     align-items: center;
     display: flex;
     flex-direction: row;
     font-size: 110%;
     margin: 8px 0 0 0;
+    text-decoration: none;
 }
 
 .coluna1-linha1 p {
@@ -28,17 +31,22 @@ body {
     margin: 10px 0 0 0;
 }
 
-.coluna1-linha2 p {
+.coluna1-linha2 a {
     color:white;
+    text-decoration: none;
+}
+
+.coluna1-linha2 p {
     margin: 0 0 0 10px;
 }
 
-.coluna1-linha3 {
+.coluna1-linha3 a {
     align-items: center;
     display: flex;
     flex-direction: row;
     font-size: 85%;
     margin: 25px 0 4px 2px;
+    text-decoration: none;
 }
 
 .coluna1-linha3 p {
@@ -46,13 +54,14 @@ body {
     margin: 0 0 0 11px;
 }
 
-.coluna1-linha4 {
+.coluna1-linha4 a {
     align-items: center;
     color:#884e9a;
     display: flex;
     flex-direction: row;
     font-size: 85%;
     margin: 4px 0 0 0;
+    text-decoration: none;
 }
 
 .coluna1-linha4 p {
@@ -83,6 +92,11 @@ body {
 html {
     width: 630px;
     height: 170px;
+}
+
+.logo {
+    position: absolute;
+    margin: 20px 10px;
 }
 
 .main-container {
