@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: row;
-    background-image: url("Fundo-8.png");
+    background-image: url("https://neurokidsclinica.com.br/wp-content/uploads/2022/09/Fundo-8.png");
     background-repeat: no-repeat;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .coluna1-linha1 p {
-    color:white;
+    color: white;
     margin: 0 0 0 10px;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .coluna1-linha2 a {
-    color:white;
+    color: white;
     text-decoration: none;
 }
 
@@ -50,13 +50,13 @@ body {
 }
 
 .coluna1-linha3 p {
-    color:#884e9a;
+    color: #884e9a;
     margin: 0 0 0 11px;
 }
 
 .coluna1-linha4 a {
     align-items: center;
-    color:#884e9a;
+    color: #884e9a;
     display: flex;
     flex-direction: row;
     font-size: 85%;
